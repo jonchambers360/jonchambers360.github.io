@@ -1,17 +1,17 @@
 /* assets/css/styles.css */
 
   header {
-    background: dodgerblue;
+    background: white;
     color: #fff;
     padding: 0px 0px;
-    text-align: center;
+    text-align: left;
   }
   
   nav {
     background: dodgerblue;
     color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     padding: 10px 0;
   }
   
