@@ -10,7 +10,7 @@ author:
   email: jonchambers360@gmail.com
   
 # Theme - set to the desired theme or your custom theme
-theme: minima
+theme: jekyll-theme-minimal
 
 # Plugins - only include what you need
 plugins:
