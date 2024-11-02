@@ -1,0 +1,40 @@
+/* assets/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background: #555;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  p {
+    margin: 20px;
+    color: #555;
+  }
+  
