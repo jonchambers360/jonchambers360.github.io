@@ -1,2 +1,10 @@
 # jonchambers360.github.io
-Personal github pages website
+This is Jon's personal github pages website.
+
+git push to main branch will trigger 'release' of latest version here...
+
+https://jonchambers360.github.io/
+
+
+
+
