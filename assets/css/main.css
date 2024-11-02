@@ -1,0 +1,224 @@
+p {
+  max-width: 900px;
+  word-wrap: break-word; /* Ensure long words wrap within the container */
+}
+
+h1 {
+  display: inline !important;
+  font-weight: bold; 
+  padding: 10px 0px 0px 5px; 
+  margin: 15px 0px 0px 0px; 
+  font-size: 30px;
+}
+
+
+
+.a_point {
+  max-width: 900px;
+  word-wrap: break-word;
+}
+
+
+.sticky_wrapper_fixed {
+  border: 1px solid  white; /* ; */
+  width: 1500px; /* was 1500px  */
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: white; 
+}
+
+.details_table {
+  font-family: Calibri, sans-serif;
+  border-collapse: collapse;
+  width: 800px;
+  margin-left:30px;
+}
+
+.details_table td, .details_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.details_table tr:nth-child(even){background-color: #f2f2f2;}
+
+.details_table tr:hover {background-color: #ddd;}
+
+.details_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3333cc;
+  color: white;
+}
+
+.button {
+  text-decoration: none;
+}
+
+a.qbutton:active {	
+  color:blue;
+}
+
+a.qbutton:visited {	
+  color:blue;
+}
+
+a.qbutton:hover {	
+   color:blue;
+}
+
+.onthispage { 
+  background: #0066ff;
+  color: white; 
+}
+
+/* body {font-family: "Roboto", sans-serif} */
+/* body {font-family: "Times New Roman", Times, serif;} */
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color:white;
+} 
+
+.standard_body {  /* for non-plot pages where text must be held within ~900px */
+  margin-left:10px; 
+  width:1000px; /* was 900  */
+  font-size: 14px;
+}
+
+.plot_body {
+  margin-left:10px;
+}
+
+img {
+  float: left;
+}
+
+.autha {
+  color:white;
+  font-weight:bolder;
+  text-shadow: 1px 2px blue;
+}
+
+.authu {
+  list-style-type: none;
+  /*margin: 0;*/
+  margin-left:180px;    /* was 200 */
+  /* padding: 0; */
+  overflow: hidden;
+  height: 30px;
+  float: left; /* NEW */
+  padding: 10px 0px 0px 0px; /* -- From top clockwise --> */
+  /* background-color: #38444d;
+  background-color: rgb(61, 163, 41);  */
+  /* 
+  background-color: DodgerBlue;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0; */
+}
+
+
+.ull {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #38444d; */
+  background-color: DodgerBlue;
+  /* 
+  background-color: DodgerBlue;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0; */
+}
+  
+.lii {
+  float: left;
+}
+  
+.lii a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+.lii a:hover, .dropdown:hover .dropbtn {
+  background-color: lightseagreen;
+}
+  
+li.dropdown {
+  /*  display: inline-block; */
+  float: left; /* NEW */
+  /* -padding: 20px 0px 0px 0px - From top clockwise --> */
+}
+  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+  
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1;}
+  
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  
+.top_h1 {
+  width:850px;
+  text-align: center;
+}
+
+.button-containerTemp {
+  position: absolute;
+  width: 800px;
+  top: 40px;
+  right: 40px;
+  padding: 20px;
+}
+.button-containerTemp button {
+  padding: 10px 20px;
+  background-color: #a0cbd4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.top_link a {
+  color: white !important;
+}
+
+
+.site-styled-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.site-table-header {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.site-styled-table th, .site-styled-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.site-table-body tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
