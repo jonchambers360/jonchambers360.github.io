@@ -1,2 +1,22 @@
-name: My Site
-theme: jekyll-theme-slate
+# Basic site settings - customize these
+title: Jons Personal Website
+description: A site for Jons stuff.
+url: https://jonchambers360.github.io
+baseurl: ""  # Change this if your site is in a subdirectory
+
+# Author info
+author:
+  name: Jon Chambers
+  email: jonchambers360@gmail.com
+  
+# Theme - set to the desired theme or your custom theme
+theme: minima
+
+# Plugins - only include what you need
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Permalink structure - adjust if needed
+permalink: /:title/
