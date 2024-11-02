@@ -8,15 +8,17 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to Jon's Website</h1>
-  </header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-  </nav>
+  <div id="header-container"></div>
   <main>
-    <p>This is the home page of my static website. Try the links.</p>
+    <p>This is the home page of my static website. Testing js</p>
   </main>
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-container').innerHTML = data;
+      });
+  </script>
 </body>
 </html>
+
